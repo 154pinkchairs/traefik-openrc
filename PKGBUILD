@@ -9,7 +9,7 @@ url="https://traefik.io/"
 license=('MIT')
 depends=('openrc' 'traefik')
 source=("https://github.com/154pinkchairs/traefik-openrc/archive/traefik-openrc-v${pkgver}.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('974398b2f291a5a1f96369a58279e7779ef70945a1cbf2244b348b66a794bc4b')
 
 package() {
 	cd "$srcdir"
