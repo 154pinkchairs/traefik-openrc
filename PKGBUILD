@@ -7,7 +7,7 @@ pkgdesc="Modern reverse proxy and load balancer (OpenRC init script)"
 arch=('any')
 url="https://traefik.io/"
 license=('MIT')
-depends=('openrc' 'traefik')
+depends=('openrc') # not pointing to traefik because it's provided by traefik-bin or traefik-git
 source=("https://github.com/154pinkchairs/traefik-openrc/archive/releases/download/${pkgver}/traefik-openrc-v${pkgver}.tar.gz")
 sha256sums=('974398b2f291a5a1f96369a58279e7779ef70945a1cbf2244b348b66a794bc4b')
 
