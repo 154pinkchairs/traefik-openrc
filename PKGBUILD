@@ -1,7 +1,7 @@
 # Maintainer: Marcelina Hołub <mholub@tutanota.com>
 
 pkgname=traefik-openrc
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Modern reverse proxy and load balancer (OpenRC init script)"
 arch=('any')
